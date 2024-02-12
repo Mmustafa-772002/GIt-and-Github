@@ -106,3 +106,70 @@ GitHub is a web-based platform that complements Git, providing hosting for Git r
 - `git write-tree`: Create a new tree object from the current index.
 
 This comprehensive guide covers a wide range of Git and GitHub commands, from basic version control to advanced repository management. Use these commands to streamline your Git workflow and effectively collaborate with others on your projects.
+
+to check the version of git installed on your system, run the following command:
+
+```bash
+git --version
+```
+to initialize a new git repository, run the following command:
+
+```bash
+git init
+```
+to clone an existing repository, run the following command:
+
+```bash
+git clone <repository-url>
+```
+to add files to the staging area, run the following command:
+
+```bash
+git add <file1> <file2> ...
+```
+to commit changes to the repository, run the following command:
+
+```bash
+git commit -m "commit message"
+```
+to create a new branch, run the following command:
+
+```bash
+git branch <branch-name>
+```
+to switch to a different branch, run the following command:
+
+```bash
+git checkout <branch-name>
+```
+to merge changes from one branch into another, run the following command:
+
+```bash
+git merge <branch-name>
+```
+to push changes to a remote repository, run the following command:
+
+```bash
+git push
+```
+to pull changes from a remote repository, run the following command:
+
+```bash
+git pull
+```
+to view the commit history, run the following command:
+
+```bash
+git log
+```
+to view the status of the working tree, run the following command:
+
+```bash
+git status
+```
+
+to delete a branch, run the following command:
+
+```bash
+git branch -d <branch-name>
+```
