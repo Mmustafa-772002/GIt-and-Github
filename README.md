@@ -1,6 +1,9 @@
 # Git and GitHub Commands
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 This repository provides a comprehensive guide to essential Git and GitHub commands for effective version control.
 
 ## Introduction
@@ -102,7 +105,35 @@ To merge changes from one branch into another, use:
 ```bash
 git merge <branch-name>
 ```
+Creating and Deleting Branches
+Creating a New Branch
+To create a new branch in Git, use the following command:
 
+```
+git branch <new-branch-name>
+```
+
+This command creates a new branch but does not switch to it. To switch to the new branch, use:
+
+```
+git checkout <new-branch-name>
+```
+Alternatively, you can use a single command to create and switch to the new branch:
+
+
+``` 
+git checkout -b <new-branch-name>
+```
+Deleting a Branch
+To delete a branch in Git, make sure you are in a different branch (not the one you want to delete). Then, use the following command:
+
+```
+git branch -d <branch-to-delete>
+```
+If the branch contains changes that are not merged, Git will prevent you from deleting it. To force delete without checking for merged changes, use:
+```
+git branch -D <branch-to-delete>
+```
 ### Pushing Changes
 
 To push changes to a remote repository, use:
