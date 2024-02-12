@@ -178,6 +178,7 @@ git branch -d <branch-name>
 
 This section covers more advanced Git commands for in-depth repository management.
 
+<<<<<<< Updated upstream
 ### Amending Commits
 
 To amend commits and make additional changes, use:
@@ -197,10 +198,87 @@ git rebase -i <commit>
 ### Stashing Changes
 
 To stash changes in a dirty working directory, use:
+=======
+This comprehensive guide covers a wide range of Git and GitHub commands, from basic version control to advanced repository management. Use these commands to streamline your Git workflow and effectively collaborate with others on your projects.
+
+to check the version of git installed on your system, run the following command:
+
+```bash
+git --version
+```
+to initialize a new git repository, run the following command:
+
+```bash
+git init
+```
+to clone an existing repository, run the following command:
+
+```bash
+git clone <repository-url>
+```
+to add files to the staging area, run the following command:
+
+```bash
+git add <file1> <file2> ...
+```
+to commit changes to the repository, run the following command:
+
+```bash
+git commit -m "commit message"
+```
+to create a new branch, run the following command:
+
+```bash
+git branch <branch-name>
+```
+to switch to a different branch, run the following command:
+
+```bash
+git checkout <branch-name>
+```
+to merge changes from one branch into another, run the following command:
+
+```bash
+git merge <branch-name>
+```
+to push changes to a remote repository, run the following command:
+
+```bash
+git push
+```
+to pull changes from a remote repository, run the following command:
+
+```bash
+git pull
+```
+to view the commit history, run the following command:
+
+```bash
+git log
+```
+to view the status of the working tree, run the following command:
+
+```bash
+git status
+```
+
+to delete a branch, run the following command:
+
+```bash
+git branch -d <branch-name>
+```
+to reset changes in the working tree, run the following command:
+
+```bash
+git reset --hard
+```
+to stash changes in the working directory, run the following command:
+>>>>>>> Stashed changes
 
 ```bash
 git stash
 ```
+<<<<<<< Updated upstream
 
 ### Applying Specific Changes
 
@@ -273,3 +351,14 @@ git diff <branch1>..<branch2>
 This comprehensive guide covers a wide range of Git and GitHub commands, from basic version control to advanced repository management. Use these commands to streamline your Git workflow and effectively collaborate with others on your projects.
 
 **Note:** This is a living document that will be updated with new commands and features. Stay tuned for more updates! If you have any suggestions or additional commands you'd like to see, feel free to contribute to this guide.
+=======
+to apply stashed changes, run the following command:
+
+```bash
+git stash apply
+```
+to delete the first commit in thee
+```bash
+git reset HEAD~1
+```
+>>>>>>> Stashed changes
