@@ -179,6 +179,7 @@ git branch -d <branch-name>
 This section covers more advanced Git commands for in-depth repository management.
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 ### Amending Commits
 
 To amend commits and make additional changes, use:
@@ -199,6 +200,8 @@ git rebase -i <commit>
 
 To stash changes in a dirty working directory, use:
 =======
+=======
+>>>>>>> Stashed changes
 This comprehensive guide covers a wide range of Git and GitHub commands, from basic version control to advanced repository management. Use these commands to streamline your Git workflow and effectively collaborate with others on your projects.
 
 to check the version of git installed on your system, run the following command:
@@ -273,11 +276,15 @@ to reset changes in the working tree, run the following command:
 git reset --hard
 ```
 to stash changes in the working directory, run the following command:
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
 ```bash
 git stash
 ```
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 
 ### Applying Specific Changes
@@ -352,6 +359,8 @@ This comprehensive guide covers a wide range of Git and GitHub commands, from ba
 
 **Note:** This is a living document that will be updated with new commands and features. Stay tuned for more updates! If you have any suggestions or additional commands you'd like to see, feel free to contribute to this guide.
 =======
+=======
+>>>>>>> Stashed changes
 to apply stashed changes, run the following command:
 
 ```bash
@@ -360,5 +369,9 @@ git stash apply
 to delete the first commit in thee
 ```bash
 git reset HEAD~1
+<<<<<<< Updated upstream
+```
+>>>>>>> Stashed changes
+=======
 ```
 >>>>>>> Stashed changes
